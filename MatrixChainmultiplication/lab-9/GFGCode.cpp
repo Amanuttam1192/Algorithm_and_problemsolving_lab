@@ -1,4 +1,4 @@
-// C++ program using memoization
+// C++ program using memorization which is saved for later help
 #include <bits/stdc++.h>
 using namespace std;
 int dp[100][100];
@@ -41,5 +41,4 @@ int main()
 		<< MatrixChainOrder(arr, n);
 }
 
-// This code is contributed by Sumit_Yadav
 
