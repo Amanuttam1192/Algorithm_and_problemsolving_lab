@@ -14,7 +14,7 @@ struct TreeNode* makeEmpty(struct TreeNode* root)
     {
         makeEmpty(root->left);
         makeEmpty(root->right);
-        free(root);
+        free(root);\
     }
     return NULL;
 }
